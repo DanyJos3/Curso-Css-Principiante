@@ -13,14 +13,23 @@ body {
 
 .box {
   width: auto;
-  margin: 0 20%;
   height: 300px;
   background-color: lightgreen;
 }
 
 .box-children {
-  width: 100%;
-  margin-left: 20px;
-  height: 150px;
+  width: 50%;
+  height: 100%;
   background-color: blueviolet;
+  /* position: absolute - fixed;  ojo la posicion que toma en este caso, es referente al viewport */
+  /* position: relative - sticky; lo correcto seria usar  */
+  position: absolute;
+  top: 0px;
+}
+
+.box-children-2 {
+  height: auto;
+}
+.box-children-3 {
+  height: auto;
 }

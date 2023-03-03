@@ -1,0 +1,35 @@
+body {
+  background-color: aqua;
+  margin: 0;
+}
+
+.box {
+  width: auto;
+  margin: 0 20%;
+  height: 300px;
+  background-color: lightgreen;
+  position: relative;
+}
+
+.box-children {
+  width: auto;
+  height: 10%;
+  margin-left: 20px;
+  background-color: blueviolet;
+}
+
+.box-children2 {
+  width: auto;
+  height: 80%;
+  margin-left: 20px;
+  background-color: antiquewhite;
+}
+
+.box-children3 {
+  width: auto;
+  height: 10%;
+  margin-left: 20px;
+  background-color: brown;
+  /* position: absolute; */
+  bottom: 0px;
+}

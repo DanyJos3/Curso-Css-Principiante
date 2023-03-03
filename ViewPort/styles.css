@@ -1,0 +1,42 @@
+/* Limitadores al ancho y alto
+Cuando establecemos un width y/o un height con una medida que es relativa, es posible que no queramos que se respete esa medida en todos los casos.
+Para ello tenemos propiedades que limitan esas medidas:
+  min-width: Indica el ancho minimo que puede alcanzar el elemento.
+  max-width: Indica el ancho máximo que puede alcanzar el elemento.
+  min-height: Indica el alto minimo que puede alcanzar el elemento.
+  max-height: Indica el alto máximo que puede alcanzar el elemento. */
+
+html {
+  height: 300px;
+}
+
+body {
+  margin: 0; 
+  background-color: #333;
+  color: lightcoral;
+  /* height: 500px; */
+}
+
+.header {
+  background-color: black;
+  text-align: center;
+  height: 15vh;
+  color: white;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 100%;
+  height: 300px;
+  background-color: lightgreen;
+}
+
+.box-children {
+  position: sticky;
+  top: 0;
+  width: 50%;
+  height: 10vmax;
+  background-color: lightseagreen;
+}
